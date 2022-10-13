@@ -1,0 +1,80 @@
+header {
+    background-image: url("../images/titulo.jpg");
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.container .card {
+    position: relative;
+    width: 100%;
+    background-color: beige;
+    float: left;
+    padding-top: 50px;
+}
+
+.container .card .image-holder  {
+    width: 50%;
+    float: left;
+    height: 400px;
+    position:relative;
+}
+
+.container .card .card-text  {
+    width: 50%;
+    float: left;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+.container .card .card-text p {
+    margin: 20px;
+    padding-right: 550px;
+}
+
+.container .card .image-holder .card-image  {
+    width: 243px;
+    position: absolute;
+    right: 100px;
+}
+.container {
+    width: 100%;
+    float: left;
+}
+
+body {
+    margin: 0px;
+}
+
+footer .footer-holder {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(245, 175, 135);
+
+}
+.card-text-holder {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
